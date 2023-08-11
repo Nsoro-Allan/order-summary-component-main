@@ -1,0 +1,196 @@
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.card-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.557);
+-webkit-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.329);
+-moz-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.301);
+}
+
+.card{
+    padding-bottom: 25px;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.description{
+    padding: 15px;
+}
+
+.description h1{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.description p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 70px;
+    background: rgba(224, 224, 224, 0.201);
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: -4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.product img{
+    width: 60px;
+    height: 60px;
+}
+
+.product-content{
+    margin-left: 3%;
+}
+
+.product-content h4{
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
+    margin-top: 3%;
+}
+
+.product-content p{
+    margin-top: -18%;
+}
+
+.product a{
+margin-top: 4%;
+margin-left: 25%;
+
+}
+
+.product a:hover{
+    color: hsl(245, 54%, 48%);
+    text-decoration: none;
+}
+
+.buttons{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.buttons button{
+    background: hsl(245, 75%, 52%);
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    width: 90%;
+}
+
+.buttons button:hover{
+    background: hsl(245, 78%, 59%);
+    cursor: pointer;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: hsl(224, 23%, 55%);
+}
+
+.buttons a:hover{
+    color: hsl(245, 75%, 52%);
+}
+
+
+@media screen and (max-width: 912px) {
+    .card-container{
+        position: absolute;
+        top: 13%;
+        left: 9%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 500px;
+        height: 600px;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.557);
+    -webkit-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.329);
+    -moz-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.301);
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .card-container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.557);
+    -webkit-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.329);
+    -moz-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.301);
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .card-container{
+        position: absolute;
+        top: 1%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 250px;
+        height: 500px;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.557);
+    -webkit-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.329);
+    -moz-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.301);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .card-container{
+        position: absolute;
+        top: 1%;
+        left: 5%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        width: 230px;
+        height: 500px;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.557);
+    -webkit-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.329);
+    -moz-box-shadow: 0px 1px 22px 3px rgba(0, 0, 0, 0.301);
+    }
+
+}
